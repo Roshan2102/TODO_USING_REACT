@@ -1,0 +1,13 @@
+.center {
+  display: block;
+  border: 4px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  margin-top: 20px;
+  background-color: blanchedalmond;
+}
+body {
+  background-image: url(../src/pages/todo\ images.jpg);
+}

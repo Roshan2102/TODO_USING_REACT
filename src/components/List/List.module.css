@@ -1,0 +1,41 @@
+.isDoneItem {
+  color: green;
+  background-color: bisque;
+  text-decoration: line-through;
+}
+
+ol {
+  margin: 19px;
+  padding: 5px;
+}
+ul,
+li {
+  cursor: pointer;
+  background: #eee;
+  position: relative;
+  padding: 12px 8px 12px 14px;
+  font-size: 22px;
+  transition: 0.3s;
+  font-style: bold;
+}
+ul,
+li:nth-child(odd) {
+  background: teal;
+}
+/* ul,
+li:hover {
+  background: teal;
+} */
+ul,
+li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
